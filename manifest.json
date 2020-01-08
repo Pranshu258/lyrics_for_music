@@ -1,0 +1,40 @@
+{
+    "manifest_version": 2,
+    "name": "LyriKa",
+    "version": "1.5.9",
+    "description": "Lyrics for your favorite songs on your favorite sites! Now supports Spotify (Web), Youtube, YT Music and Google Play Music.",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://music.youtube.com/*",
+                "*://www.youtube.com/*",
+                "*://open.spotify.com/*",
+                "*://play.google.com/music/*"
+            ],
+            "js": [
+                "lib/sites/google_play_music.js",
+                "lib/sites/youtube_music.js",
+                "lib/sites/youtube.js",
+                "lib/sites/spotify.js",
+                "lib/render.js",
+                "lib/scrapper.js",
+                "lib/engine.js",
+                "main.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "*://cors-anywhere.herokuapp.com/*"
+    ],
+    "icons": {
+        "48": "icons/Icon-48.png",
+        "96": "icons/Icon-96.png",
+        "128": "icons/Icon-128.png",
+        "256": "icons/Icon-256.png",
+        "512": "icons/Icon-512.png"
+    }
+}
