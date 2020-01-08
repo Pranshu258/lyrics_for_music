@@ -13,7 +13,7 @@ Installation
         <img width="14" height="14" src="https://edgetipscdn.microsoft.com/insider-site/images/favicon.fbd89822.png" alt="Microsoft Edge Icon"> Microsoft Edge
     </a> 
     |
-    <a href="https://chrome.google.com/webstore/detail/lyrics-for-youtube-music/gjippledijmnpeppiilbejofghgaknde" target="_blank">
+    <a href="https://chrome.google.com/webstore/detail/lyrika/fploppldpenfnknabfnifniandmadibh" target="_blank">
         <img width="14" height="14" src="https://www.google.com/chrome/static/images/favicons/favicon-32x32.png" alt="Google Chrome Icon"> Google Chrome
     </a>  
 </div>
