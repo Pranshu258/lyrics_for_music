@@ -19,9 +19,8 @@
     margin-top: 64px;
     border-radius: 8px;
     border: 1px solid rgb(0, 0, 0);
-    box-shadow:
-    rgba(0, 0, 0, 0.5) 0px 0px 4px 1px,
-    rgba(255, 255, 255, 0.5) 0px 0px 4px 1px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 4px 1px,
+        rgba(255, 255, 255, 0.5) 0px 0px 4px 1px;
     height: 75%;
     max-height: 90%;
     width: 360px;
@@ -50,5 +49,5 @@
 }
 
 .lyrics_div {
-    z-index: 2000;
+    z-index: 9999;
 }
